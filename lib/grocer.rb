@@ -7,8 +7,8 @@ def find_item_by_name_in_collection(name, collection)
     if collection[count][:item] == name 
       return collection[count]
     end 
-  end 
   count += 1
+end 
 end
 
 def consolidate_cart(cart)
